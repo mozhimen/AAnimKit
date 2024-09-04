@@ -2,7 +2,7 @@ package com.mozhimen.animk.builder.bases
 
 import android.view.animation.Interpolator
 import androidx.annotation.FloatRange
-import com.mozhimen.basick.elemk.kotlin.cons.CSuppress
+import com.mozhimen.kotlin.elemk.kotlin.cons.CSuppress
 
 /**
  * @ClassName BaseAnimationConfig

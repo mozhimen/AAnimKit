@@ -16,10 +16,10 @@ import com.mozhimen.animk.builder.impls.AnimatorAlphaViewType
 import com.mozhimen.animk.builder.impls.AnimatorColorRecyclerType
 import com.mozhimen.animk.builder.impls.AnimatorIntType
 import com.mozhimen.animk.builder.impls.AnimatorRotationType
-import com.mozhimen.basick.elemk.android.animation.BaseLayoutParamsAnimatorListenerAdapter
-import com.mozhimen.basick.elemk.android.animation.BaseViewHolderAnimatorListenerAdapter
-import com.mozhimen.basick.utilk.android.view.applyMargin
-import com.mozhimen.basick.utilk.androidx.core.UtilKViewCompat
+import com.mozhimen.kotlin.elemk.android.animation.BaseLayoutParamsAnimatorListenerAdapter
+import com.mozhimen.kotlin.elemk.android.animation.BaseViewHolderAnimatorListenerAdapter
+import com.mozhimen.kotlin.utilk.android.view.applyMargin
+import com.mozhimen.kotlin.utilk.androidx.core.UtilKViewCompat
 
 /**
  * @ClassName AnimKTypeUtil

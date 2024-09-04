@@ -2,7 +2,7 @@ package com.mozhimen.animk.builder.mos
 
 import android.view.animation.AccelerateDecelerateInterpolator
 import android.view.animation.Interpolator
-import com.mozhimen.basick.utilk.wrapper.UtilKRes
+import com.mozhimen.kotlin.utilk.wrapper.UtilKRes
 
 /**
  * @ClassName MAnimationConfig

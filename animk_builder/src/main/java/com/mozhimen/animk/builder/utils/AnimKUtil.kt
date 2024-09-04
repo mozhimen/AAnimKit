@@ -5,8 +5,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.mozhimen.animk.builder.AnimKBuilder
-import com.mozhimen.basick.elemk.android.animation.BaseLayoutParamsAnimatorListenerAdapter
-import com.mozhimen.basick.elemk.android.animation.BaseViewHolderAnimatorListenerAdapter
+import com.mozhimen.kotlin.elemk.android.animation.BaseLayoutParamsAnimatorListenerAdapter
+import com.mozhimen.kotlin.elemk.android.animation.BaseViewHolderAnimatorListenerAdapter
 
 /**
  * @ClassName AnimKUtil

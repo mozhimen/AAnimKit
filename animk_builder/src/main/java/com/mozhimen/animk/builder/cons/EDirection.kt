@@ -1,6 +1,6 @@
 package com.mozhimen.animk.builder.cons
 
-import com.mozhimen.basick.elemk.android.view.cons.CGravity
+import com.mozhimen.kotlin.elemk.android.view.cons.CGravity
 
 /**
  * @ClassName Direction

@@ -7,8 +7,8 @@ import com.mozhimen.animk.builder.bases.BaseProperty
 import com.mozhimen.animk.builder.commons.IAnimatorType
 import com.mozhimen.animk.builder.commons.IAnimatorUpdateListener
 import com.mozhimen.animk.builder.mos.MAnimKConfig
-import com.mozhimen.basick.elemk.kotlin.cons.CSuppress
-import com.mozhimen.basick.utilk.android.animation.UtilKAnimator
+import com.mozhimen.kotlin.elemk.kotlin.cons.CSuppress
+import com.mozhimen.kotlin.utilk.android.animation.UtilKAnimator
 
 /**
  * @ClassName BaseAnimatorType

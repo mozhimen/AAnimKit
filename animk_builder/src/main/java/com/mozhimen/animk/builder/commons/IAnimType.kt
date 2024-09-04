@@ -1,7 +1,7 @@
 package com.mozhimen.animk.builder.commons
 
 import com.mozhimen.animk.builder.mos.MAnimKConfig
-import com.mozhimen.basick.utilk.commons.IUtilK
+import com.mozhimen.kotlin.utilk.commons.IUtilK
 
 /**
  * @ClassName IAnimType

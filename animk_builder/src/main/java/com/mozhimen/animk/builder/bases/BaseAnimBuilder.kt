@@ -5,9 +5,9 @@ import android.view.animation.Interpolator
 import com.mozhimen.animk.builder.commons.IAnimCreateListener
 import com.mozhimen.animk.builder.commons.IAnimType
 import com.mozhimen.animk.builder.mos.MAnimKConfig
-import com.mozhimen.basick.elemk.kotlin.cons.CSuppress
-import com.mozhimen.basick.utilk.android.util.UtilKLogWrapper
-import com.mozhimen.basick.utilk.commons.IUtilK
+import com.mozhimen.kotlin.elemk.kotlin.cons.CSuppress
+import com.mozhimen.kotlin.utilk.android.util.UtilKLogWrapper
+import com.mozhimen.kotlin.utilk.commons.IUtilK
 
 /**
  * @ClassName IBaseAnimKBuilder
