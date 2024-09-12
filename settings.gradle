@@ -21,8 +21,15 @@ dependencyResolutionManagement {
 rootProject.name = "AAnimKit"
 include ':animk_lottie'
 include ':animk_builder'
+include ':animk'
 //SwiftKit
 include ':SwiftKit'
 project(':SwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\SwiftKit")
 include ':SwiftKit:basick'
-include ':animk'
+include ':SwiftKit:mvvmk'
+//KUtilKit
+include ':KUtilKit'
+project(':KUtilKit').projectDir = new File("D:\\WorkSpace\\GitHub\\KUtilKit")
+include ':KUtilKit:utilk_android'
+include ':KUtilKit:utilk_kotlin'
+include ':animk_builder_test'
