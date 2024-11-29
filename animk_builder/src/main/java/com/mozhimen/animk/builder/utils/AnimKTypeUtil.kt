@@ -46,6 +46,8 @@ object AnimKTypeUtil {
         return animatorColorRecyclerType as AnimatorColorRecyclerType
     }
 
+    ////////////////////////////////////////////////////////////////////////////////////////////
+
     /**
      * 背景透明度变换
      */
@@ -63,6 +65,8 @@ object AnimKTypeUtil {
         return animatorAlpha255Type as AnimatorAlpha255Type
     }
 
+    ////////////////////////////////////////////////////////////////////////////////////////////
+
     /**
      * 旋转
      */
@@ -75,6 +79,8 @@ object AnimKTypeUtil {
                 }
             }
         }) as AnimatorRotationType
+
+    ////////////////////////////////////////////////////////////////////////////////////////////
 
     /**
      * 高度
@@ -111,6 +117,8 @@ object AnimKTypeUtil {
         val endHeight = viewHolder.itemView.measuredHeight
         return get_ofHeight_viewHolder(viewHolder.itemView, viewHolder, startHeight, endHeight)
     }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////
 
     @JvmStatic
     fun get_ofAlphaView(view: View, @FloatRange(from = 0.0, to = 1.0) fromAlpha: Float, @FloatRange(from = 0.0, to = 1.0) toAlpha: Float): AnimatorAlphaViewType =
