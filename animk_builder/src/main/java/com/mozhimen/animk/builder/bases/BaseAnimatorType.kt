@@ -3,12 +3,11 @@ package com.mozhimen.animk.builder.bases
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
 import android.animation.ValueAnimator
-import com.mozhimen.animk.builder.bases.BaseProperty
 import com.mozhimen.animk.builder.commons.IAnimatorType
 import com.mozhimen.animk.builder.commons.IAnimatorUpdateListener
 import com.mozhimen.animk.builder.mos.MAnimKConfig
 import com.mozhimen.kotlin.elemk.kotlin.cons.CSuppress
-import com.mozhimen.kotlin.utilk.android.animation.UtilKAnimator
+import com.mozhimen.kotlin.utilk.android.animation.UtilKAnimatorWrapper
 
 /**
  * @ClassName BaseAnimatorType
@@ -61,7 +60,7 @@ abstract class BaseAnimatorType<TYPE, UPDATE_VALUE> : BaseProperty<TYPE>(), IAni
     }
 
     fun clearAllListeners(animation: Animator) {
-        UtilKAnimator.cancel_removeAllListeners(animation)
+        UtilKAnimatorWrapper.cancel_removeAllListeners(animation)
         _animatorUpdateListeners?.clear()
         _animatorListenerAdapters?.clear()
     }
