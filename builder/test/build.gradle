@@ -37,7 +37,7 @@ android {
 
 dependencies {
     implementation project(':ASwiftKit:bindk')
-    implementation project(':animk_builder')
+    implementation project(':builder')
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'
