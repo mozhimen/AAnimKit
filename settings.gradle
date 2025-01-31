@@ -22,6 +22,11 @@ rootProject.name = "AAnimKit"
 include ':animk'
 include ':builder'
 include ':builder:test'
+include ':lottie'
+//ALibKit_Airbnb
+include ':ALibKit_Airbnb'
+project(':ALibKit_Airbnb').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Airbnb")
+include ':ALibKit_Airbnb:lottie'
 //ALibKit_Google
 include ':ALibKit_Google'
 project(':ALibKit_Google').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Google")
