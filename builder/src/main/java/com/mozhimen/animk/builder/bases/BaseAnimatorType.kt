@@ -60,7 +60,7 @@ abstract class BaseAnimatorType<TYPE, UPDATE_VALUE> : BaseProperty<TYPE>(), IAni
     }
 
     fun clearAllListeners(animation: Animator) {
-        UtilKAnimatorWrapper.cancel_removeAllListeners(animation)
+        UtilKAnimatorWrapper.cancel_removeAll_AllUpdateListeners(animation)
         _animatorUpdateListeners?.clear()
         _animatorListenerAdapters?.clear()
     }
