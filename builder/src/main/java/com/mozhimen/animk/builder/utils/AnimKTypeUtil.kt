@@ -8,16 +8,14 @@ import android.view.animation.DecelerateInterpolator
 import androidx.annotation.ColorInt
 import androidx.annotation.FloatRange
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.mozhimen.animk.builder.AnimKBuilder
 import com.mozhimen.animk.builder.commons.IAnimatorUpdateListener
-import com.mozhimen.animk.builder.helpers.AnimatorBuilder
 import com.mozhimen.animk.builder.impls.AnimatorAlpha255Type
 import com.mozhimen.animk.builder.impls.AnimatorAlphaViewType
 import com.mozhimen.animk.builder.impls.AnimatorColorRecyclerType
 import com.mozhimen.animk.builder.impls.AnimatorIntType
 import com.mozhimen.animk.builder.impls.AnimatorRotationType
-import com.mozhimen.kotlin.elemk.android.animation.BaseLayoutParamsAnimatorListenerAdapter
-import com.mozhimen.kotlin.elemk.android.animation.BaseViewHolderAnimatorListenerAdapter
+import com.mozhimen.kotlin.elemk.android.animation.bases.BaseLayoutParamsAnimatorListenerAdapter
+import com.mozhimen.kotlin.elemk.android.animation.bases.BaseViewHolderAnimatorListenerAdapter
 import com.mozhimen.kotlin.utilk.android.view.applyMargin
 import com.mozhimen.kotlin.utilk.androidx.core.UtilKViewCompat
 

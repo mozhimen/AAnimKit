@@ -2,11 +2,7 @@ package com.mozhimen.animk.builder.utils
 
 import android.animation.Animator
 import android.view.View
-import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.mozhimen.animk.builder.AnimKBuilder
-import com.mozhimen.kotlin.elemk.android.animation.BaseLayoutParamsAnimatorListenerAdapter
-import com.mozhimen.kotlin.elemk.android.animation.BaseViewHolderAnimatorListenerAdapter
 
 /**
  * @ClassName AnimKUtil

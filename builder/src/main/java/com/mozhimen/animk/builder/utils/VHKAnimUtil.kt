@@ -5,7 +5,7 @@ import android.animation.AnimatorListenerAdapter
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.mozhimen.animk.builder.AnimKBuilder
-import com.mozhimen.kotlin.elemk.android.animation.BaseViewHolderAnimatorListenerAdapter
+import com.mozhimen.kotlin.elemk.android.animation.bases.BaseViewHolderAnimatorListenerAdapter
 import com.mozhimen.kotlin.utilk.android.view.applyGone
 import com.mozhimen.kotlin.utilk.android.view.applyVisible
 
