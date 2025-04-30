@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.mozhimen.animk.builder.test'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.mozhimen.animk.builder.test"
