@@ -2,7 +2,7 @@ package com.mozhimen.animk.builder.test
 
 import android.os.Bundle
 import com.mozhimen.animk.builder.test.databinding.ActivityAnimkBinding
-import com.mozhimen.uik.databinding.bases.activity.databinding.BaseActivityVDB
+import com.mozhimen.uik.databinding.bases.viewdatabinding.activity.BaseActivityVDB
 
 /**
  * @ClassName AnimKActivity
